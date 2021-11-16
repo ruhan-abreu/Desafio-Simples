@@ -1,0 +1,386 @@
+html, body {
+
+  font-family: Roboto;
+}
+
+.App {
+ position: relative;
+ width: 1304px;
+ height: 926px;
+ Left :262px;
+
+  
+background: #2149D6;
+
+}
+
+.App-logo {
+  position: absolute;
+width: 467px;
+height: 467px;
+left: 149px;
+top: 229px;
+
+}
+
+
+
+.App-header {
+  background-color:  #2149D6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-p1{
+  position: absolute;
+width: 331px;
+height: 145px;
+left: 820px;
+top: 266px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.App-p2{
+  position: absolute;
+width: 278px;
+height: 42px;
+left: 849px;
+top: 441px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.App-link-p{
+  position: absolute;
+width: 264px;
+height: 35px;
+left: 847px;
+top: 603px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.botao-tarefas{
+
+position: absolute;
+width: 350px;
+height: 75px;
+left: 804px;
+top: 583px;
+
+background: #31BFFC;
+box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.25);
+border-radius: 84px;
+color: #FFFFFF;
+}
+
+
+.tarefas{
+  position: relative;
+width: 1304px;
+height: 926px;
+
+background: #FFFFFF;
+
+}
+
+.tarefas-titulo{
+  position: absolute;
+  width: 173px;
+  height: 35px;
+  left: 46px;
+  top: 17px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight:500;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #3F3D56;
+
+}
+
+
+.lista-item1{
+  padding-top: 10px;
+  padding-left: 14px;
+  position: absolute;
+  width: 364px;
+  height: 124px;
+  left: 55px;
+  top: 85px;
+  
+  background: #2149D6;
+  box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 15px;
+}
+
+.lista-item2{
+  padding-top: 10px;
+  padding-left: 14px;
+  position: absolute;
+  width: 364px;
+  height: 124px;
+  left: 55px;
+  top: 242px;
+  
+  background: #2149D6;
+  box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 15px;
+}
+
+.lista-item3{
+  padding-top: 10px;
+  padding-left: 14px;
+  position: absolute;
+  width: 364px;
+  height: 124px;
+  left: 55px;
+  top: 399px;
+  
+  background: #2149D6;
+  box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 15px;
+}
+
+.lista-item4{
+  padding-top: 10px;
+  padding-left: 14px;
+  position: absolute;
+  width: 364px;
+  height: 124px;
+  left: 55px;
+  top: 556px;
+  
+  background: #2149D6;
+  box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 15px;
+}
+
+
+.lista-item5{
+  padding-top: 10px;
+  padding-left: 14px;
+  position: absolute;
+  width: 364px;
+  height: 124px;
+  left: 55px;
+  top: 713px;
+  
+  background: #2149D6;
+  box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 15px;
+}
+
+.Fonte-Lista{
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  
+  color: #E6E6E6;
+  
+
+}
+
+.Fonte-Lista-Span{
+   
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300; 
+  font-style: normal;
+  color: #E6E6E6;
+
+}
+
+.botao-cont-tarefas{
+ 
+  
+  position: absolute;
+  left: 278px;
+  top: 84px;
+  bottom: 12px;
+  width: 75px;
+
+
+  
+  background: #E6E6E6;
+  border-radius: 10px;
+
+  font-size: 18px;
+  font-family: Roboto;
+  line-height: 21px;
+}
+
+.quadro-tarefas{
+
+position: relative;
+width: 722px;
+min-height: 789px;
+left: 528px;
+top: 70px;
+
+background: #F2F2F2;
+border-radius: 42px;
+align-items: center;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+.p-tarefas{
+
+  position: absolute;
+  width: 314px;
+  height: 35px;
+  left: 732px;
+  top: 430px;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #3F3D56;
+}
+
+.fonte-botao{
+position: absolute;
+height: 43px;
+left: 112px;
+top: 20px;
+bottom: 20px;
+color: #FFFFFF;
+ 
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+ 
+}
+
+.botao-Newtarefas{
+  position: absolute;
+width: 350px;
+height: 75px;
+left: 69px;
+top: 799px;
+
+background: #31BFFC;
+box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.25);
+border-radius: 84px;
+}
+
+.texto-quadro-tarefas{
+  position: absolute;
+  width: 314px;
+  height: 35px;
+  left: 258px;
+  top: 360px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #3F3D56;
+}
+
+.item-tarefas{
+  padding: 5px;
+  margin: 20px;
+}
+
+.item-tarefas-title{
+  position: relative;
+  background: #E6E6E6;
+  box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.item-tarefas-description{
+  position: relative;
+  margin-top: 7px;
+  background:  #31BFFC;
+  box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 15px;
+  color: #FFFFFF;
+}
+
+.mostrarDescri{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16x;
+
+
+
+  background: #2149D6;
+  padding: 7PX;
+  box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.22);
+  border-radius: 15px;
+  cursor: pointer;
+  color: #FFFFFF;
+
+}
+
+
+
+
